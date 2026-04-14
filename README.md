@@ -18,6 +18,16 @@ I build the missing infrastructure between AI models and real-world tasks — ex
 
 ### `$ tree ~/work`
 
+#### `./ship` — Independent Products
+
+> *From zero to users. Design, build, ship.*
+
+| Project | What & Why |
+|---------|------------|
+| [Nerve](https://github.com/xiatiandeairen/nerve) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | System awareness for AI agents — 22 metrics, 9-dim scoring, Push+Pull+MCP delivery <br/> ![Rust](https://img.shields.io/badge/Rust_2024-f74c00?style=flat-square&logo=rust&logoColor=white) [![CI](https://img.shields.io/github/actions/workflow/status/xiatiandeairen/nerve/ci.yml?style=flat-square&label=CI)](https://github.com/xiatiandeairen/nerve/actions) ![MIT](https://img.shields.io/badge/MIT-blue?style=flat-square) |
+| [VibeBetter](https://github.com/xiatiandeairen/VibeBetter) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | AI-Augmented Engineering Insight Platform — measure AI effectiveness, track structural risk <br/> ![Next.js](https://img.shields.io/badge/Next.js_15-000?style=flat-square&logo=next.js) ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square) ![PG](https://img.shields.io/badge/PG_16-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![TS](https://img.shields.io/badge/TS-3178c6?style=flat-square&logo=typescript&logoColor=white) |
+| [HuLa](https://github.com/xiatiandeairen/HuLa) | Cross-platform IM desktop app — Tauri (Rust) + Vue3, full-stack ownership <br/> ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white) ![Vue](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) |
+
 #### `./frontier` — AI Agent Infrastructure
 
 > *The runtime layer that makes AI agents actually work.*
@@ -29,16 +39,6 @@ I build the missing infrastructure between AI models and real-world tasks — ex
 | [debug-for-agent](https://github.com/xiatiandeairen/debug-for-agent) | Debugging framework — 4D classification, 3-layer hypothesis convergence |
 | [decay-for-agent](https://github.com/xiatiandeairen/decay-for-agent) | Health monitor — multi-dimensional trend tracking, prevents project decay |
 
-#### `./ship` — Independent Products
-
-> *From zero to users. Design, build, ship.*
-
-| Project | What & Why |
-|---------|------------|
-| [Nerve](https://github.com/xiatiandeairen/nerve) | System awareness for AI agents — 22 metrics, 9-dim scoring, Push+Pull+MCP delivery |
-| [HuLa](https://github.com/xiatiandeairen/HuLa) | Cross-platform IM desktop app — Tauri (Rust) + Vue3, full-stack ownership |
-| [VibeBetter](https://github.com/xiatiandeairen/VibeBetter) | Opinionated project starter for AI-assisted development |
-
 #### `./craft` — Systems & Tooling
 
 > *Depth builds conviction. Good tools compound.*
@@ -49,7 +49,6 @@ I build the missing infrastructure between AI models and real-world tasks — ex
 | [FlowGen](https://github.com/xiatiandeairen/FlowGen) | Terminal workflow SDK — JSON/YAML DSL drives interactive CLI pipelines |
 | [SmartCommit](https://github.com/xiatiandeairen/SmartCommit) | Git commit message generator — AST-level diff analysis → Conventional Commits |
 | [VibeCodingRules](https://github.com/xiatiandeairen/VibeCodingRules) | Curated rules & conventions for AI-assisted coding |
-<!-- | [dotfiles](https://github.com/xiatiandeairen/dotfiles) | Terminal environment — Neovim, Zsh, Tmux, Alacritty configs | -->
 
 ---
 
