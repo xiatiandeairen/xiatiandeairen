@@ -1,0 +1,230 @@
+<svg width="840" height="340" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#101820"/>
+    </linearGradient>
+    <!-- Border gradient -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21262d"/>
+      <stop offset="30%" stop-color="#30363d"/>
+      <stop offset="70%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#21262d"/>
+    </linearGradient>
+    <!-- Progress bar gradient -->
+    <linearGradient id="progressFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#238636"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <!-- Glow filter for status dot -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Subtle inner shadow -->
+    <filter id="inset">
+      <feFlood flood-color="#000" flood-opacity="0.15"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feGaussianBlur stdDeviation="4"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* === PHASE TIMING ===
+       Phase 1 (0-1s):    Window appears, title bar
+       Phase 2 (1-2.2s):  Boot message + progress bar
+       Phase 3 (2.5-4s):  Module loading lines
+       Phase 4 (4.2-5.5s): Identity block
+       Phase 5 (5.5s+):   Stable state, cursor blinks
+    */
+
+    /* Base styles */
+    text { font-family: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+
+    /* Window container fade in */
+    .window { opacity: 0; animation: fadeIn 0.4s ease-out 0.2s forwards; }
+
+    /* Scanline - very subtle */
+    .scanline { animation: scanMove 8s linear infinite; opacity: 0.015; }
+
+    /* Phase 2: Boot line */
+    .boot-line { opacity: 0; animation: fadeIn 0.15s ease 1s forwards; }
+
+    /* Progress bar */
+    .progress-track { opacity: 0; animation: fadeIn 0.1s ease 1.2s forwards; }
+    .progress-fill {
+      animation: progressGrow 1s ease-in-out 1.3s forwards;
+      transform-origin: left;
+    }
+    .progress-text { opacity: 0; animation: fadeIn 0.1s ease 2.3s forwards; }
+
+    /* Phase 3: Module loading */
+    .mod-1 { opacity: 0; animation: fadeIn 0.1s ease 2.6s forwards; }
+    .mod-2 { opacity: 0; animation: fadeIn 0.1s ease 2.9s forwards; }
+    .mod-3 { opacity: 0; animation: fadeIn 0.1s ease 3.2s forwards; }
+    .mod-4 { opacity: 0; animation: fadeIn 0.1s ease 3.5s forwards; }
+
+    /* Phase 4: Identity block */
+    .identity-border { opacity: 0; animation: fadeIn 0.2s ease 4s forwards; }
+    .id-line-1 { opacity: 0; animation: fadeIn 0.15s ease 4.2s forwards; }
+    .id-line-2 { opacity: 0; animation: fadeIn 0.15s ease 4.5s forwards; }
+    .id-line-3 { opacity: 0; animation: fadeIn 0.15s ease 4.8s forwards; }
+
+    /* Phase 5: Ready + cursor */
+    .ready-line { opacity: 0; animation: fadeIn 0.15s ease 5.3s forwards; }
+    .cursor { opacity: 0; animation: cursorAppear 0.1s ease 5.6s forwards; }
+    .cursor rect { animation: blink 1s step-end 5.6s infinite; }
+
+    /* Status dot pulse - starts after ready */
+    .status-dot { opacity: 0; animation: fadeIn 0.2s ease 5.3s forwards; }
+    .status-dot circle:nth-child(2) { animation: pulse 2s ease-in-out 5.5s infinite; }
+
+    /* === KEYFRAMES === */
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes progressGrow {
+      from { transform: scaleX(0); } to { transform: scaleX(1); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; } 50% { opacity: 0; }
+    }
+    @keyframes cursorAppear {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; r: 4; } 50% { opacity: 1; r: 5; }
+    }
+    @keyframes scanMove {
+      0% { transform: translateY(-10px); }
+      100% { transform: translateY(340px); }
+    }
+  </style>
+
+  <!-- ======== WINDOW CONTAINER ======== -->
+  <g class="window">
+    <!-- Background -->
+    <rect width="840" height="340" rx="10" fill="url(#bg)"/>
+    <rect x="0.5" y="0.5" width="839" height="339" rx="10" fill="none" stroke="url(#border)" stroke-width="1"/>
+
+    <!-- Scanline -->
+    <rect class="scanline" width="840" height="4" fill="white" rx="2"/>
+
+    <!-- Title bar -->
+    <rect x="0" y="0" width="840" height="36" rx="10" fill="#161b22"/>
+    <rect x="0" y="20" width="840" height="16" fill="#161b22"/>
+    <line x1="0" y1="36" x2="840" y2="36" stroke="#21262d" stroke-width="1"/>
+    <!-- Window buttons -->
+    <circle cx="20" cy="18" r="5.5" fill="#ff5f56" opacity="0.85"/>
+    <circle cx="38" cy="18" r="5.5" fill="#ffbd2e" opacity="0.85"/>
+    <circle cx="56" cy="18" r="5.5" fill="#27c93f" opacity="0.85"/>
+    <!-- Title -->
+    <text x="420" y="22" font-size="12" fill="#484f58" text-anchor="middle">agent-runtime — v2.0.0</text>
+
+    <!-- ======== PHASE 2: BOOT ======== -->
+    <g class="boot-line">
+      <text x="28" y="68" font-size="13" fill="#484f58">[</text>
+      <text x="34" y="68" font-size="13" fill="#3fb950">BOOT</text>
+      <text x="66" y="68" font-size="13" fill="#484f58">]</text>
+      <text x="76" y="68" font-size="13" fill="#8b949e">Initializing agent-runtime...</text>
+    </g>
+
+    <!-- Progress bar -->
+    <g class="progress-track">
+      <rect x="28" y="80" width="320" height="6" rx="3" fill="#21262d"/>
+      <rect class="progress-fill" x="28" y="80" width="320" height="6" rx="3" fill="url(#progressFill)"/>
+    </g>
+    <g class="progress-text">
+      <text x="358" y="87" font-size="11" fill="#3fb950">done</text>
+    </g>
+
+    <!-- ======== PHASE 3: MODULE LOADING ======== -->
+    <g class="mod-1">
+      <text x="28" y="114" font-size="12.5" fill="#484f58">  ├─</text>
+      <text x="68" y="114" font-size="12.5" fill="#58a6ff">nerve</text>
+      <text x="118" y="114" font-size="12.5" fill="#484f58">····················</text>
+      <text x="288" y="114" font-size="12.5" fill="#3fb950">loaded</text>
+      <text x="348" y="114" font-size="12.5" fill="#484f58">— system awareness engine</text>
+    </g>
+    <g class="mod-2">
+      <text x="28" y="134" font-size="12.5" fill="#484f58">  ├─</text>
+      <text x="68" y="134" font-size="12.5" fill="#58a6ff">sentinel</text>
+      <text x="138" y="134" font-size="12.5" fill="#484f58">··············</text>
+      <text x="288" y="134" font-size="12.5" fill="#3fb950">loaded</text>
+      <text x="348" y="134" font-size="12.5" fill="#484f58">— observability layer</text>
+    </g>
+    <g class="mod-3">
+      <text x="28" y="154" font-size="12.5" fill="#484f58">  ├─</text>
+      <text x="68" y="154" font-size="12.5" fill="#58a6ff">origami</text>
+      <text x="132" y="154" font-size="12.5" fill="#484f58">···············</text>
+      <text x="288" y="154" font-size="12.5" fill="#3fb950">loaded</text>
+      <text x="348" y="154" font-size="12.5" fill="#484f58">— modular architecture</text>
+    </g>
+    <g class="mod-4">
+      <text x="28" y="174" font-size="12.5" fill="#484f58">  └─</text>
+      <text x="68" y="174" font-size="12.5" fill="#58a6ff">vibe</text>
+      <text x="102" y="174" font-size="12.5" fill="#484f58">····················</text>
+      <text x="288" y="174" font-size="12.5" fill="#3fb950">loaded</text>
+      <text x="348" y="174" font-size="12.5" fill="#484f58">— engineering insights</text>
+    </g>
+
+    <!-- ======== PHASE 4: IDENTITY BLOCK ======== -->
+    <!-- Separator line -->
+    <g class="identity-border">
+      <line x1="28" y1="194" x2="812" y2="194" stroke="#21262d" stroke-width="1" stroke-dasharray="2,3"/>
+    </g>
+
+    <g class="id-line-1">
+      <text x="28" y="220" font-size="14" fill="#8b949e">$</text>
+      <text x="44" y="220" font-size="14" fill="#c9d1d9">whoami</text>
+      <text x="108" y="220" font-size="14" fill="#484f58">→</text>
+      <text x="130" y="220" font-size="18" fill="#e6edf3" font-weight="600">xiatiandeairen</text>
+    </g>
+
+    <g class="id-line-2">
+      <text x="28" y="248" font-size="13" fill="#8b949e">$</text>
+      <text x="44" y="248" font-size="13" fill="#c9d1d9">role</text>
+      <text x="82" y="248" font-size="13" fill="#484f58">→</text>
+      <text x="104" y="248" font-size="13" fill="#c9d1d9">Engineer who builds AI agent infrastructure</text>
+    </g>
+
+    <g class="id-line-3">
+      <text x="28" y="272" font-size="13" fill="#8b949e">$</text>
+      <text x="44" y="272" font-size="13" fill="#c9d1d9">stack</text>
+      <text x="88" y="272" font-size="13" fill="#484f58">→</text>
+      <text x="110" y="272" font-size="13" fill="#ffa657">Rust</text>
+      <text x="148" y="272" font-size="13" fill="#30363d">·</text>
+      <text x="162" y="272" font-size="13" fill="#79c0ff">TypeScript</text>
+      <text x="254" y="272" font-size="13" fill="#30363d">·</text>
+      <text x="268" y="272" font-size="13" fill="#ff7b72">Swift</text>
+      <text x="312" y="272" font-size="13" fill="#30363d">·</text>
+      <text x="326" y="272" font-size="13" fill="#d2a8ff">Lua</text>
+    </g>
+
+    <!-- ======== PHASE 5: READY STATE ======== -->
+    <g class="ready-line">
+      <text x="28" y="305" font-size="13" fill="#8b949e">$</text>
+      <text x="44" y="305" font-size="13" fill="#3fb950">Ready.</text>
+      <text x="100" y="305" font-size="13" fill="#484f58">All modules operational. Awaiting instructions.</text>
+    </g>
+
+    <!-- Status indicator (top right) -->
+    <g class="status-dot" filter="url(#glow)">
+      <circle cx="800" cy="18" r="4" fill="#3fb950" opacity="0.3"/>
+      <circle cx="800" cy="18" r="4" fill="#3fb950"/>
+    </g>
+
+    <!-- Blinking cursor -->
+    <g class="cursor">
+      <rect x="28" y="315" width="7" height="14" rx="1" fill="#58a6ff"/>
+    </g>
+
+    <!-- ======== SUBTLE DECORATION ======== -->
+    <!-- Version watermark bottom right -->
+    <text x="800" y="330" font-size="10" fill="#21262d" text-anchor="end">pid 42 · 4 modules · 0 errors</text>
+
+  </g>
+</svg>

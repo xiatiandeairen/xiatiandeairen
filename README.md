@@ -1,18 +1,10 @@
 <div align="center">
 
-```
- ████████  ██   ██
-    ██      ██ ██
-    ██       ███
-    ██      ██ ██
-    ██     ██   ██
-```
-
-**`> Engineer who builds AI agent infrastructure — grounded in systems thinking.`**
+<a href="https://github.com/xiatiandeairen">
+<img src="./header.svg" width="100%" alt="agent-runtime terminal header" />
+</a>
 
 ![visitors](https://komarev.com/ghpvc/?username=xiatiandeairen&color=0550ae&style=flat&label=visitors)
-
-![Rust](https://img.shields.io/badge/Rust-f6f8fa?style=flat&logo=rust&logoColor=24292f) ![TypeScript](https://img.shields.io/badge/TypeScript-f6f8fa?style=flat&logo=typescript&logoColor=3178c6) ![Python](https://img.shields.io/badge/Python-f6f8fa?style=flat&logo=python&logoColor=3776ab) ![Shell](https://img.shields.io/badge/Shell-f6f8fa?style=flat&logo=gnubash&logoColor=4eaa25) ![Lua](https://img.shields.io/badge/Lua-f6f8fa?style=flat&logo=lua&logoColor=2c2d72) ![Vue.js](https://img.shields.io/badge/Vue.js-f6f8fa?style=flat&logo=vuedotjs&logoColor=4fc08d)
 
 </div>
 
