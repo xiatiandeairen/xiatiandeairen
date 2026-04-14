@@ -134,11 +134,11 @@
 
     <!-- Progress bar -->
     <g class="progress-track">
-      <rect x="28" y="80" width="320" height="6" rx="3" fill="#21262d"/>
-      <rect class="progress-fill" x="28" y="80" width="320" height="6" rx="3" fill="url(#progressFill)"/>
+      <rect x="28" y="80" width="500" height="6" rx="3" fill="#21262d"/>
+      <rect class="progress-fill" x="28" y="80" width="500" height="6" rx="3" fill="url(#progressFill)"/>
     </g>
     <g class="progress-text">
-      <text x="358" y="87" font-size="11" fill="#3fb950">done</text>
+      <text x="538" y="87" font-size="11" fill="#3fb950">done</text>
     </g>
 
     <!-- ======== PHASE 3: MODULE LOADING ======== -->
