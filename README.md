@@ -4,6 +4,12 @@
 <img src="./header.svg" width="100%" alt="agent-runtime terminal header" />
 </a>
 
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=rust,ts,swift,lua,py,bash&theme=dark&perline=6" height="36" alt="tech stack" />
+</a>
+
+<br/>
+
 ![visitors](https://komarev.com/ghpvc/?username=xiatiandeairen&color=0550ae&style=flat&label=visitors)
 
 </div>
