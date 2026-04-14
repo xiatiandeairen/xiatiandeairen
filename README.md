@@ -14,15 +14,30 @@
 
 ### `$ cat /etc/profile`
 
-```
-I build the missing infrastructure between AI models and real-world tasks.
+```bash
+#!/bin/bash
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║  /etc/profile — xiatiandeairen                                  ║
+# ╚══════════════════════════════════════════════════════════════════╝
 
-Not the models. Not the prompts. The layer underneath —
-execution engines, persistent memory, structured debugging,
-and the nervous system that tells agents when to build and when to back off.
+# What I don't do:
+# build_ai_models          ← not this
+# write_prompts            ← not this
+# finetune_llms            ← not this either
 
-Background : OS kernels in Rust, cross-platform apps, dev tooling
-Focus      : AI agent infrastructure
+# What I actually build:
+ROLE="The missing infrastructure between AI models and real-world tasks"
+
+FOCUS=(
+  "execution engines"       # run structured tasks, not vibes
+  "persistent memory"       # agents that remember across sessions
+  "structured debugging"    # diagnose, not guess
+  "system awareness"        # know when to build, when to back off
+)
+
+BACKGROUND="OS kernels in Rust · cross-platform apps · dev tooling"
+
+export ROLE FOCUS BACKGROUND
 ```
 
 ---
