@@ -37,40 +37,22 @@
 
 ### `$ tree ~/work`
 
-#### `./ship` — Independent Products
-
-> *From zero to users. Design, build, ship.*
-
-<table width="100%">
+<table>
 <thead><tr><th width="40"></th><th width="200">Project</th><th>What & Why</th><th width="90"></th></tr></thead>
 <tbody>
+<!-- ./ship — Independent Products -->
+<tr><td colspan="4"><strong><code>./ship</code></strong> — Independent Products</td></tr>
 <tr><td><img src="https://img.shields.io/badge/-dea584?style=flat-square&logo=rust&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/nerve">Nerve</a> <img src="https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square" /></td><td>System awareness for AI agents — 22 metrics, 9-dim scoring <br/> <img src="https://img.shields.io/badge/MCP-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/CLI-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/Push+Pull-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/VibeBetter">VibeBetter</a> <img src="https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square" /></td><td>AI engineering insight — measure AI effectiveness, track structural risk <br/> <img src="https://img.shields.io/badge/Next.js-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/Hono-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/PG-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-dea584?style=flat-square&logo=rust&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/HuLa">HuLa</a></td><td>Cross-platform IM desktop app — full-stack from architecture to delivery <br/> <img src="https://img.shields.io/badge/Tauri-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/Vue3-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/■_stable-58a6ff?style=flat-square&logoColor=white" /></td></tr>
-</tbody>
-</table>
-
-#### `./frontier` — AI Agent Infrastructure
-
-> *The runtime layer that makes AI agents actually work.*
-
-<table width="100%">
-<thead><tr><th width="40"></th><th width="200">Project</th><th>What & Why</th><th width="90"></th></tr></thead>
-<tbody>
+<!-- ./frontier — AI Agent Infrastructure -->
+<tr><td colspan="4"><strong><code>./frontier</code></strong> — AI Agent Infrastructure</td></tr>
 <tr><td><img src="https://img.shields.io/badge/-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/sprint-for-agent">sprint-for-agent</a></td><td>Task execution engine — turns instructions into verifiable steps <br/> <img src="https://img.shields.io/badge/pipeline-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/anchor-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/know-for-agent">know-for-agent</a></td><td>Knowledge compiler — agents remember what matters, forget what doesn't <br/> <img src="https://img.shields.io/badge/cross--session-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/persistence-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/debug-for-agent">debug-for-agent</a></td><td>Debugging framework — systematic diagnosis, not random guessing <br/> <img src="https://img.shields.io/badge/4D-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/hypothesis-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/decay-for-agent">decay-for-agent</a></td><td>Health monitor — catch project decay before it becomes tech debt <br/> <img src="https://img.shields.io/badge/trend-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/health--score-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/◆_beta-d29922?style=flat-square&logoColor=white" /></td></tr>
-</tbody>
-</table>
-
-#### `./craft` — Systems & Tooling
-
-> *Depth builds conviction. Good tools compound.*
-
-<table width="100%">
-<thead><tr><th width="40"></th><th width="200">Project</th><th>What & Why</th><th width="90"></th></tr></thead>
-<tbody>
+<!-- ./craft — Systems & Tooling -->
+<tr><td colspan="4"><strong><code>./craft</code></strong> — Systems & Tooling</td></tr>
 <tr><td><img src="https://img.shields.io/badge/-dea584?style=flat-square&logo=rust&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/MiniOperationSystem">MiniOperationSystem</a></td><td>Minimal OS kernel — memory management, interrupts, scheduling <br/> <img src="https://img.shields.io/badge/from--scratch-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/○_learning-8b949e?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-2C2D72?style=flat-square&logo=lua&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/FlowGen">FlowGen</a></td><td>Terminal workflow SDK — interactive CLI from JSON/YAML DSL <br/> <img src="https://img.shields.io/badge/fzf-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/gum-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/DSL-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/SmartCommit">SmartCommit</a></td><td>Git commit generator — AST-level diff → Conventional Commits <br/> <img src="https://img.shields.io/badge/AST-161b22?style=flat-square" /> <img src="https://img.shields.io/badge/conventional-161b22?style=flat-square" /></td><td><img src="https://img.shields.io/badge/■_stable-58a6ff?style=flat-square&logoColor=white" /></td></tr>
