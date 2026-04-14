@@ -14,30 +14,23 @@
 
 ### `$ cat /etc/profile`
 
-```bash
-#!/bin/bash
-# ╔══════════════════════════════════════════════════════════════════╗
-# ║  /etc/profile — xiatiandeairen                                  ║
-# ╚══════════════════════════════════════════════════════════════════╝
-
-# What I don't do:
-# build_ai_models          ← not this
-# write_prompts            ← not this
-# finetune_llms            ← not this either
-
-# What I actually build:
-ROLE="The missing infrastructure between AI models and real-world tasks"
-
-FOCUS=(
-  "execution engines"       # run structured tasks, not vibes
-  "persistent memory"       # agents that remember across sessions
-  "structured debugging"    # diagnose, not guess
-  "system awareness"        # know when to build, when to back off
-)
-
-BACKGROUND="OS kernels in Rust · cross-platform apps · dev tooling"
-
-export ROLE FOCUS BACKGROUND
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ~~Build AI models~~    ~~Write prompts~~    ~~Fine-tune LLMs~~     ║
+║                                                                      ║
+║   I build the missing infrastructure between AI models               ║
+║   and real-world tasks. The layer underneath —                       ║
+║                                                                      ║
+║     → execution engines      run structured tasks, not vibes         ║
+║     → persistent memory      agents that remember across sessions    ║
+║     → structured debugging   diagnose, not guess                     ║
+║     → system awareness       know when to build, when to back off    ║
+║                                                                      ║
+║   Background : OS kernels in Rust · cross-platform apps · dev tools  ║
+║   Focus      : AI agent infrastructure                               ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
