@@ -14,24 +14,17 @@
 
 ### `$ cat /etc/profile`
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   ✗ Build AI models    ✗ Write prompts    ✗ Fine-tune LLMs          ║
-║                                                                      ║
-║   I build the missing infrastructure between AI models               ║
-║   and real-world tasks. The layer underneath —                       ║
-║                                                                      ║
-║     → execution engines      run structured tasks, not vibes         ║
-║     → persistent memory      agents that remember across sessions    ║
-║     → structured debugging   diagnose, not guess                     ║
-║     → system awareness       know when to build, when to back off    ║
-║                                                                      ║
-║   Background : OS kernels in Rust · cross-platform apps · dev tools  ║
-║   Focus      : AI agent infrastructure                               ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+~~Build AI models~~ · ~~Write prompts~~ · ~~Fine-tune LLMs~~
+
+**I build the missing infrastructure between AI models and real-world tasks.**
+
+> `→ execution engines` — run structured tasks, not vibes
+> `→ persistent memory` — agents that remember across sessions
+> `→ structured debugging` — diagnose, not guess
+> `→ system awareness` — know when to build, when to back off
+
+`Background` OS kernels in Rust · cross-platform apps · dev tools
+<br/>`Focus` AI agent infrastructure
 
 ---
 
