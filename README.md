@@ -43,6 +43,7 @@ I build the missing infrastructure between AI models and real-world tasks — ex
 
 | Project | What & Why |
 |---------|------------|
+| [Nerve](https://github.com/xiatiandeairen/nerve) | System awareness for AI agents — 22 metrics, 9-dim scoring, Push+Pull+MCP delivery |
 | [HuLa](https://github.com/xiatiandeairen/HuLa) | Cross-platform IM desktop app — Tauri (Rust) + Vue3, full-stack ownership |
 | [VibeBetter](https://github.com/xiatiandeairen/VibeBetter) | Opinionated project starter for AI-assisted development |
 
