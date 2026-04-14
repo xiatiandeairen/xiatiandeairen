@@ -178,37 +178,38 @@
     </g>
 
     <g class="id-line-1">
-      <text x="28" y="220" font-size="14" fill="#8b949e">$</text>
-      <text x="44" y="220" font-size="14" fill="#c9d1d9">whoami</text>
-      <text x="108" y="220" font-size="14" fill="#484f58">→</text>
-      <text x="130" y="220" font-size="18" fill="#e6edf3" font-weight="600">xiatiandeairen</text>
+      <text x="28" y="222" font-size="14" fill="#484f58">$</text>
+      <text x="44" y="222" font-size="14" fill="#8b949e">whoami</text>
+      <text x="108" y="222" font-size="14" fill="#484f58">→</text>
+      <text x="132" y="224" font-size="24" fill="#58a6ff" font-weight="700">xiatiandeairen</text>
     </g>
 
     <g class="id-line-2">
-      <text x="28" y="248" font-size="13" fill="#8b949e">$</text>
-      <text x="44" y="248" font-size="13" fill="#c9d1d9">role</text>
-      <text x="82" y="248" font-size="13" fill="#484f58">→</text>
-      <text x="104" y="248" font-size="13" fill="#c9d1d9">Engineer who builds AI agent infrastructure</text>
+      <text x="28" y="256" font-size="14" fill="#484f58">$</text>
+      <text x="44" y="256" font-size="14" fill="#8b949e">role</text>
+      <text x="82" y="256" font-size="14" fill="#484f58">→</text>
+      <text x="104" y="256" font-size="15" fill="#e6edf3" font-weight="500">Engineer who builds</text>
+      <text x="310" y="256" font-size="15" fill="#58a6ff" font-weight="600">AI agent infrastructure</text>
     </g>
 
     <g class="id-line-3">
-      <text x="28" y="272" font-size="13" fill="#8b949e">$</text>
-      <text x="44" y="272" font-size="13" fill="#c9d1d9">stack</text>
-      <text x="88" y="272" font-size="13" fill="#484f58">→</text>
-      <text x="110" y="272" font-size="13" fill="#ffa657">Rust</text>
-      <text x="148" y="272" font-size="13" fill="#30363d">·</text>
-      <text x="162" y="272" font-size="13" fill="#79c0ff">TypeScript</text>
-      <text x="254" y="272" font-size="13" fill="#30363d">·</text>
-      <text x="268" y="272" font-size="13" fill="#ff7b72">Swift</text>
-      <text x="312" y="272" font-size="13" fill="#30363d">·</text>
-      <text x="326" y="272" font-size="13" fill="#d2a8ff">Lua</text>
+      <text x="28" y="282" font-size="13" fill="#484f58">$</text>
+      <text x="44" y="282" font-size="13" fill="#8b949e">stack</text>
+      <text x="88" y="282" font-size="13" fill="#484f58">→</text>
+      <text x="110" y="282" font-size="13" fill="#ffa657">Rust</text>
+      <text x="148" y="282" font-size="13" fill="#30363d">·</text>
+      <text x="162" y="282" font-size="13" fill="#79c0ff">TypeScript</text>
+      <text x="254" y="282" font-size="13" fill="#30363d">·</text>
+      <text x="268" y="282" font-size="13" fill="#ff7b72">Swift</text>
+      <text x="312" y="282" font-size="13" fill="#30363d">·</text>
+      <text x="326" y="282" font-size="13" fill="#d2a8ff">Lua</text>
     </g>
 
     <!-- ======== PHASE 5: READY STATE ======== -->
     <g class="ready-line">
-      <text x="28" y="305" font-size="13" fill="#8b949e">$</text>
-      <text x="44" y="305" font-size="13" fill="#3fb950">Ready.</text>
-      <text x="100" y="305" font-size="13" fill="#484f58">All modules operational. Awaiting instructions.</text>
+      <text x="28" y="310" font-size="13" fill="#484f58">$</text>
+      <text x="44" y="310" font-size="13" fill="#3fb950">Ready.</text>
+      <text x="100" y="310" font-size="13" fill="#484f58">All modules operational. Awaiting instructions.</text>
     </g>
 
     <!-- Status indicator (top right) -->
@@ -219,7 +220,7 @@
 
     <!-- Blinking cursor -->
     <g class="cursor">
-      <rect x="28" y="315" width="7" height="14" rx="1" fill="#58a6ff"/>
+      <rect x="28" y="320" width="7" height="14" rx="1" fill="#58a6ff"/>
     </g>
 
     <!-- ======== SUBTLE DECORATION ======== -->
