@@ -41,11 +41,10 @@
 
 > *From zero to users. Design, build, ship.*
 
-<a href="https://github.com/xiatiandeairen/nerve"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xiatiandeairen&repo=nerve&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&description_lines=2" width="49%" /></a>
-<a href="https://github.com/xiatiandeairen/VibeBetter"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xiatiandeairen&repo=VibeBetter&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=8b949e&description_lines=2" width="49%" /></a>
-
 | Project | What & Why |
 |---------|------------|
+| [Nerve](https://github.com/xiatiandeairen/nerve) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | System awareness for AI agents — 22 metrics, 9-dim scoring, Push+Pull+MCP delivery <br/> ![Rust](https://img.shields.io/badge/Rust_2024-f74c00?style=flat-square&logo=rust&logoColor=white) ![MIT](https://img.shields.io/badge/MIT-blue?style=flat-square) |
+| [VibeBetter](https://github.com/xiatiandeairen/VibeBetter) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | AI-Augmented Engineering Insight Platform — measure AI effectiveness, track structural risk <br/> ![stars](https://img.shields.io/github/stars/xiatiandeairen/VibeBetter?style=flat-square&label=★&labelColor=0d1117&color=0d1117) ![last commit](https://img.shields.io/github/last-commit/xiatiandeairen/VibeBetter?style=flat-square&label=active&labelColor=0d1117&color=238636) |
 | [HuLa](https://github.com/xiatiandeairen/HuLa) | Cross-platform IM desktop app — Tauri (Rust) + Vue3, full-stack ownership |
 
 #### `./frontier` — AI Agent Infrastructure
