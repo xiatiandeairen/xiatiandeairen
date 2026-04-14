@@ -38,7 +38,7 @@
 ### `$ tree ~/work`
 
 <table>
-<thead><tr><th width="40"></th><th width="200">Project</th><th>What & Why</th><th width="90"></th></tr></thead>
+<thead><tr><th width="80"></th><th width="200">Project</th><th>What & Why</th><th width="90"></th></tr></thead>
 <tbody>
 <!-- ./ship — Independent Products -->
 <tr><td colspan="4"><img src="https://img.shields.io/badge/./ship-Independent_Products-58a6ff?style=flat-square&labelColor=161b22" /></td></tr>
