@@ -14,7 +14,16 @@
 
 ### `$ cat /etc/profile`
 
-I build the missing infrastructure between AI models and real-world tasks — execution engines, persistent memory, structured debugging. Background: OS kernels in Rust, cross-platform desktop apps, dev tooling.
+```
+I build the missing infrastructure between AI models and real-world tasks.
+
+Not the models. Not the prompts. The layer underneath —
+execution engines, persistent memory, structured debugging,
+and the nervous system that tells agents when to build and when to back off.
+
+Background : OS kernels in Rust, cross-platform apps, dev tooling
+Focus      : AI agent infrastructure
+```
 
 ---
 
