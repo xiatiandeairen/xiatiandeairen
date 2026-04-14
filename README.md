@@ -43,9 +43,9 @@
 
 | | Project | What & Why | Status |
 |---|---------|------------|--------|
-| 🧠 | [Nerve](https://github.com/xiatiandeairen/nerve) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | System awareness for AI agents — 22 metrics, 9-dim scoring, Push+Pull+MCP delivery | ![Rust](https://img.shields.io/badge/Rust-f74c00?style=flat-square&logo=rust&logoColor=white) |
-| 📊 | [VibeBetter](https://github.com/xiatiandeairen/VibeBetter) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | AI-Augmented Engineering Insight Platform — measure AI effectiveness, track structural risk | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
-| 💬 | [HuLa](https://github.com/xiatiandeairen/HuLa) | Cross-platform IM desktop app — Tauri (Rust) + Vue3, full-stack ownership | ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white) |
+| ![](https://img.shields.io/badge/●-dea584?style=flat-square&labelColor=0d1117) | [Nerve](https://github.com/xiatiandeairen/nerve) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | System awareness for AI agents — 22 metrics, 9-dim scoring <br/> ![MCP](https://img.shields.io/badge/MCP-161b22?style=flat-square) ![CLI](https://img.shields.io/badge/CLI-161b22?style=flat-square) ![Push+Pull](https://img.shields.io/badge/Push+Pull-161b22?style=flat-square) | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [VibeBetter](https://github.com/xiatiandeairen/VibeBetter) ![★](https://img.shields.io/badge/★-FLAGSHIP-0550ae?style=flat-square) | AI engineering insight — measure AI effectiveness, track structural risk <br/> ![Next.js](https://img.shields.io/badge/Next.js-161b22?style=flat-square) ![Hono](https://img.shields.io/badge/Hono-161b22?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PG-161b22?style=flat-square) | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
+| ![](https://img.shields.io/badge/●-dea584?style=flat-square&labelColor=0d1117) | [HuLa](https://github.com/xiatiandeairen/HuLa) | Cross-platform IM desktop app — full-stack from architecture to delivery <br/> ![Tauri](https://img.shields.io/badge/Tauri-161b22?style=flat-square) ![Vue3](https://img.shields.io/badge/Vue3-161b22?style=flat-square) | ![stable](https://img.shields.io/badge/stable-58a6ff?style=flat-square) |
 
 #### `./frontier` — AI Agent Infrastructure
 
@@ -53,10 +53,10 @@
 
 | | Project | What & Why | Status |
 |---|---------|------------|--------|
-| 🔧 | [sprint-for-agent](https://github.com/xiatiandeairen/sprint-for-agent) | Task execution engine — stage pipeline, anchor verification, model routing | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
-| 📚 | [know-for-agent](https://github.com/xiatiandeairen/know-for-agent) | Knowledge compiler — structured persistence that survives across sessions | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
-| 🔍 | [debug-for-agent](https://github.com/xiatiandeairen/debug-for-agent) | Debugging framework — 4D classification, 3-layer hypothesis convergence | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
-| 🩺 | [decay-for-agent](https://github.com/xiatiandeairen/decay-for-agent) | Health monitor — multi-dimensional trend tracking, prevents project decay | ![beta](https://img.shields.io/badge/beta-d29922?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [sprint-for-agent](https://github.com/xiatiandeairen/sprint-for-agent) | Task execution engine — turns instructions into verifiable steps <br/> ![pipeline](https://img.shields.io/badge/pipeline-161b22?style=flat-square) ![anchor](https://img.shields.io/badge/anchor-161b22?style=flat-square) | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [know-for-agent](https://github.com/xiatiandeairen/know-for-agent) | Knowledge compiler — agents remember what matters, forget what doesn't <br/> ![cross-session](https://img.shields.io/badge/cross--session-161b22?style=flat-square) ![persistence](https://img.shields.io/badge/persistence-161b22?style=flat-square) | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [debug-for-agent](https://github.com/xiatiandeairen/debug-for-agent) | Debugging framework — systematic diagnosis, not random guessing <br/> ![4D](https://img.shields.io/badge/4D-161b22?style=flat-square) ![hypothesis](https://img.shields.io/badge/hypothesis-161b22?style=flat-square) | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [decay-for-agent](https://github.com/xiatiandeairen/decay-for-agent) | Health monitor — catch project decay before it becomes tech debt <br/> ![trend](https://img.shields.io/badge/trend-161b22?style=flat-square) ![health-score](https://img.shields.io/badge/health--score-161b22?style=flat-square) | ![beta](https://img.shields.io/badge/beta-d29922?style=flat-square) |
 
 #### `./craft` — Systems & Tooling
 
@@ -64,10 +64,10 @@
 
 | | Project | What & Why | Status |
 |---|---------|------------|--------|
-| ⚙️ | [MiniOperationSystem](https://github.com/xiatiandeairen/MiniOperationSystem) | Minimal OS kernel in Rust — memory, interrupts, scheduling from scratch | ![learning](https://img.shields.io/badge/learning-8b949e?style=flat-square) |
-| 🔀 | [FlowGen](https://github.com/xiatiandeairen/FlowGen) | Terminal workflow SDK — JSON/YAML DSL drives interactive CLI pipelines | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
-| 📝 | [SmartCommit](https://github.com/xiatiandeairen/SmartCommit) | Git commit message generator — AST-level diff analysis → Conventional Commits | ![stable](https://img.shields.io/badge/stable-58a6ff?style=flat-square) |
-| 📐 | [VibeCodingRules](https://github.com/xiatiandeairen/VibeCodingRules) | Curated rules & conventions for AI-assisted coding | ![stable](https://img.shields.io/badge/stable-58a6ff?style=flat-square) |
+| ![](https://img.shields.io/badge/●-dea584?style=flat-square&labelColor=0d1117) | [MiniOperationSystem](https://github.com/xiatiandeairen/MiniOperationSystem) | Minimal OS kernel — memory management, interrupts, scheduling <br/> ![Rust](https://img.shields.io/badge/from--scratch-161b22?style=flat-square) | ![learning](https://img.shields.io/badge/learning-8b949e?style=flat-square) |
+| ![](https://img.shields.io/badge/●-000080?style=flat-square&labelColor=0d1117) | [FlowGen](https://github.com/xiatiandeairen/FlowGen) | Terminal workflow SDK — interactive CLI from JSON/YAML DSL <br/> ![fzf](https://img.shields.io/badge/fzf-161b22?style=flat-square) ![gum](https://img.shields.io/badge/gum-161b22?style=flat-square) ![DSL](https://img.shields.io/badge/DSL-161b22?style=flat-square) | ![active](https://img.shields.io/badge/active-238636?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [SmartCommit](https://github.com/xiatiandeairen/SmartCommit) | Git commit generator — AST-level diff → Conventional Commits <br/> ![AST](https://img.shields.io/badge/AST-161b22?style=flat-square) ![conventional](https://img.shields.io/badge/conventional-161b22?style=flat-square) | ![stable](https://img.shields.io/badge/stable-58a6ff?style=flat-square) |
+| ![](https://img.shields.io/badge/●-3178c6?style=flat-square&labelColor=0d1117) | [VibeCodingRules](https://github.com/xiatiandeairen/VibeCodingRules) | Curated rules & conventions for AI-assisted coding <br/> ![AI-coding](https://img.shields.io/badge/AI--coding-161b22?style=flat-square) | ![stable](https://img.shields.io/badge/stable-58a6ff?style=flat-square) |
 
 ---
 
