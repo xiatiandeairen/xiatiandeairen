@@ -51,6 +51,7 @@
 <tr><td><img src="https://img.shields.io/badge/TS-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/know-for-agent">know-for-agent</a></td><td>Knowledge compiler — agents remember what matters, forget what doesn't <br/> <img src="https://img.shields.io/badge/cross--session-2d1a4e?style=flat-square" /> <img src="https://img.shields.io/badge/persistence-2d1a4e?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/TS-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/debug-for-agent">debug-for-agent</a></td><td>Debugging framework — systematic diagnosis, not random guessing <br/> <img src="https://img.shields.io/badge/4D-2d1a4e?style=flat-square" /> <img src="https://img.shields.io/badge/hypothesis-2d1a4e?style=flat-square" /></td><td><img src="https://img.shields.io/badge/▲_active-238636?style=flat-square&logoColor=white" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/TS-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/decay-for-agent">decay-for-agent</a></td><td>Health monitor — catch project decay before it becomes tech debt <br/> <img src="https://img.shields.io/badge/trend-2d1a4e?style=flat-square" /> <img src="https://img.shields.io/badge/health--score-2d1a4e?style=flat-square" /></td><td><img src="https://img.shields.io/badge/◆_beta-d29922?style=flat-square&logoColor=white" /></td></tr>
+<tr><td><img src="https://img.shields.io/badge/TS-3178c6?style=flat-square&logo=typescript&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/evolution-for-agent">evolution-for-agent</a></td><td>Self-evolution engine — metacognition on decision paths, executable cognitive strategies <br/> <img src="https://img.shields.io/badge/metacognition-2d1a4e?style=flat-square" /> <img src="https://img.shields.io/badge/strategy-2d1a4e?style=flat-square" /></td><td><img src="https://img.shields.io/badge/◆_beta-d29922?style=flat-square&logoColor=white" /></td></tr>
 <!-- ./craft — Systems & Tooling -->
 <tr><td colspan="4"><img src="./badges/craft.svg" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Rust-dea584?style=flat-square&logo=rust&logoColor=white" /></td><td><a href="https://github.com/xiatiandeairen/MiniOperationSystem">MiniOperationSystem</a></td><td>Minimal OS kernel — memory management, interrupts, scheduling <br/> <img src="https://img.shields.io/badge/from--scratch-1a3a2a?style=flat-square" /></td><td><img src="https://img.shields.io/badge/○_learning-8b949e?style=flat-square&logoColor=white" /></td></tr>
@@ -105,10 +106,11 @@
   │
 2026  ./agent-infra/sprint v2.0      # All in AI agent infrastructure
   │
-  ├── sprint: 任务流水线 + 锚点验证
-  ├── know:   跨会话知识持久化
-  ├── debug:  结构化假设收敛
-  └── decay:  项目健康度监控
+  ├── sprint:    任务流水线 + 锚点验证
+  ├── know:      跨会话知识持久化
+  ├── debug:     结构化假设收敛
+  ├── decay:     项目健康度监控
+  └── evolution: 元认知自我进化
 
       "每一层都是上一层的地基。"
 ```
