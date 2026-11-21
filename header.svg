@@ -162,31 +162,31 @@
     <!-- ======== PHASE 3: MODULE LOADING ======== -->
     <g class="mod-1">
       <text x="28" y="114" font-size="12.5" fill="#484f58">  ├─</text>
-      <text x="68" y="114" font-size="12.5" fill="#58a6ff">nerve</text>
-      <text x="118" y="114" font-size="12.5" fill="#484f58">····················</text>
+      <text x="68" y="114" font-size="12.5" fill="#58a6ff">agent-verify</text>
+      <text x="168" y="114" font-size="12.5" fill="#484f58">··············</text>
       <text x="288" y="114" font-size="12.5" fill="#3fb950">loaded</text>
-      <text x="348" y="114" font-size="12.5" fill="#484f58">— system awareness engine</text>
+      <text x="348" y="114" font-size="12.5" fill="#484f58">— requirements → verified cases</text>
     </g>
     <g class="mod-2">
       <text x="28" y="134" font-size="12.5" fill="#484f58">  ├─</text>
-      <text x="68" y="134" font-size="12.5" fill="#58a6ff">sentinel</text>
-      <text x="138" y="134" font-size="12.5" fill="#484f58">··············</text>
+      <text x="68" y="134" font-size="12.5" fill="#58a6ff">agent-build</text>
+      <text x="161" y="134" font-size="12.5" fill="#484f58">···············</text>
       <text x="288" y="134" font-size="12.5" fill="#3fb950">loaded</text>
-      <text x="348" y="134" font-size="12.5" fill="#484f58">— observability layer</text>
+      <text x="348" y="134" font-size="12.5" fill="#484f58">— shared build slot for worktrees</text>
     </g>
     <g class="mod-3">
       <text x="28" y="154" font-size="12.5" fill="#484f58">  ├─</text>
-      <text x="68" y="154" font-size="12.5" fill="#58a6ff">origami</text>
-      <text x="132" y="154" font-size="12.5" fill="#484f58">···············</text>
+      <text x="68" y="154" font-size="12.5" fill="#58a6ff">agent-quay</text>
+      <text x="153" y="154" font-size="12.5" fill="#484f58">················</text>
       <text x="288" y="154" font-size="12.5" fill="#3fb950">loaded</text>
-      <text x="348" y="154" font-size="12.5" fill="#484f58">— modular architecture</text>
+      <text x="348" y="154" font-size="12.5" fill="#484f58">— build queue &amp; device lender</text>
     </g>
     <g class="mod-4">
       <text x="28" y="174" font-size="12.5" fill="#484f58">  └─</text>
-      <text x="68" y="174" font-size="12.5" fill="#58a6ff">vibe</text>
-      <text x="102" y="174" font-size="12.5" fill="#484f58">····················</text>
+      <text x="68" y="174" font-size="12.5" fill="#58a6ff">dotfiles</text>
+      <text x="138" y="174" font-size="12.5" fill="#484f58">··················</text>
       <text x="288" y="174" font-size="12.5" fill="#3fb950">loaded</text>
-      <text x="348" y="174" font-size="12.5" fill="#484f58">— engineering insights</text>
+      <text x="348" y="174" font-size="12.5" fill="#484f58">— reproducible agent workstation</text>
     </g>
 
     <!-- ======== PHASE 4: IDENTITY BLOCK ======== -->
