@@ -48,6 +48,7 @@
 <!-- ./craft — Systems & Tooling -->
 <tr><td colspan="4"><img src="./badges/craft.svg" /></td></tr>
 <tr><td><img src="https://img.shields.io/badge/Shell-89e051?style=flat-square&logo=gnubash&logoColor=white" /></td><td>dotfiles</td><td>Reproducible dev environment — GNU Stow managed setup with bootstrap/doctor workflow and shared rules for Claude/Codex <br/> <img src="https://img.shields.io/badge/Stow-1a3a2a?style=flat-square" /> <img src="https://img.shields.io/badge/Neovim-1a3a2a?style=flat-square" /> <img src="https://img.shields.io/badge/AI--workflow-1a3a2a?style=flat-square" /></td><td><img src="https://img.shields.io/badge/◇_private-8b949e?style=flat-square&logoColor=white" /></td></tr>
+<tr><td><img src="https://img.shields.io/badge/Skill-6e40c9?style=flat-square&logo=probot&logoColor=white" /></td><td>x-post</td><td>Write X posts that sound human — patterns learned from real high-performing samples, refined by your own results <br/> <img src="https://img.shields.io/badge/sample_library-1a3a2a?style=flat-square" /> <img src="https://img.shields.io/badge/voice_profiles-1a3a2a?style=flat-square" /> <img src="https://img.shields.io/badge/feedback_loop-1a3a2a?style=flat-square" /></td><td><img src="https://img.shields.io/badge/◇_private-8b949e?style=flat-square&logoColor=white" /></td></tr>
 </tbody>
 </table>
 
